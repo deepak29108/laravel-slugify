@@ -1,6 +1,6 @@
 {
   "$schema": "https://getcomposer.org/schema.json",
-  "name": "deepphp/slugify",
+  "name": "deepphp/laravel-slugify",
   "description": "Slug generation and uniqueness helpers for Laravel.",
   "type": "library",
   "license": "MIT",
