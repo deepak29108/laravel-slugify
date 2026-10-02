@@ -1,0 +1,29 @@
+{
+  "$schema": "https://getcomposer.org/schema.json",
+  "name": "deepphp/slugify",
+  "description": "Slug generation and uniqueness helpers for Laravel.",
+  "type": "library",
+  "license": "MIT",
+  "keywords": [
+    "laravel",
+    "slug",
+    "slugify"
+  ],
+  "require": {
+    "php": "^8.3",
+    "illuminate/database": "^13.0",
+    "illuminate/support": "^13.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Deepphp\\Slugify\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Deepphp\\Slugify\\Providers\\SlugifyProvider"
+      ]
+    }
+  }
+}
